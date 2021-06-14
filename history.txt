@@ -1,0 +1,51 @@
+    1  git --version
+    2  termux-setup-storage
+    3  ls
+    4  cd storage
+    5  ls
+    6  cd shared
+    7  ls
+    8  git init
+    9  git config --global user.email "lovekilledtshepo@gmail.com"
+   10  git config --global user.name "tshepoandi"
+   11  git commit -m "bouya added"
+   12  git add <tshepo>
+   13  pwd
+   14  cd storage
+   15  ls
+   16  cd git-basic-exercises
+   17  git status
+   18  git branch
+   19  git checkout history
+   20  clear
+   21  pwd
+   22  git log
+   23  cd ..
+   24  ls
+   25  mkdir work
+   26  cd work
+   27  mkdir git-basic-exercises
+   28  cd git-basic-exercises
+   29  git init
+   30  touch README.md
+   31  git add README.md
+   32  git commit -m 'initial commit'
+   33  nano README.md
+   34  git commit -m 'second change'
+   35  git add README.md
+   36  git commit -m 'second change'
+   37  nano README.md
+   38  git add README.md
+   39  git commit -m 'third change'
+   40  git log
+   41  clear
+   42  git branch milkshake-flavours
+   43  git checkout milkshake-flavours
+   44  ls
+   45  nano Milkshake.md
+   46  git add Milkshake.md
+   47  git commit -m 'added initial flavours'
+   48  git log
+   49  git branch history
+   50  git checkout history
+   51  history > history.txt
